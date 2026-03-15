@@ -41,4 +41,4 @@
   watch="true"
 
 [experimental.localPlugins.cloudflarewarp]
-  moduleName = "github.com/JimmyTsai16/cloudflarewarp"
+  moduleName = "github.com/enoqv/cloudflarewarp"
