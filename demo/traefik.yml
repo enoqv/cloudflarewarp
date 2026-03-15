@@ -1,0 +1,19 @@
+api:
+  dashboard: true
+  insecure: true
+
+entryPoints:
+  web:
+    address: ":80"
+
+providers:
+  docker:
+    exposedByDefault: false
+  file:
+    directory: /etc/traefik/config
+    watch: true
+
+experimental:
+  localPlugins:
+    cloudflarewarp:
+      moduleName: github.com/enoqv/cloudflarewarp
