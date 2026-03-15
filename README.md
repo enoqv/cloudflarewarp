@@ -1,11 +1,11 @@
 # Real IP from Cloudflare Proxy/Tunnel
 
-[![Code Coverage](https://codecov.io/gh/JimmyTsai16/cloudflarewarp/branch/master/graph/badge.svg?token=QFGZS5QJSG)](https://codecov.io/gh/JimmyTsai16/cloudflarewarp)
-[![Code Analysis](https://github.com/JimmyTsai16/cloudflarewarp/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/JimmyTsai16/cloudflarewarp/actions/workflows/codeql-analysis.yml)
-[![Codacy Security Scan](https://github.com/JimmyTsai16/cloudflarewarp/actions/workflows/codacy-analysis.yml/badge.svg)](https://github.com/JimmyTsai16/cloudflarewarp/actions/workflows/codacy-analysis.yml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/JimmyTsai16/cloudflarewarp)](https://goreportcard.com/report/github.com/JimmyTsai16/cloudflarewarp)
-[![Build and Test Source](https://github.com/JimmyTsai16/cloudflarewarp/actions/workflows/buildAndTest.yml/badge.svg)](https://github.com/JimmyTsai16/cloudflarewarp/actions/workflows/buildAndTest.yml)
-[![Integration Test](https://github.com/JimmyTsai16/cloudflarewarp/actions/workflows/prodTest.yml/badge.svg)](https://github.com/JimmyTsai16/cloudflarewarp/actions/workflows/prodTest.yml)
+[![Code Coverage](https://codecov.io/gh/enoqv/cloudflarewarp/branch/master/graph/badge.svg?token=QFGZS5QJSG)](https://codecov.io/gh/enoqv/cloudflarewarp)
+[![Code Analysis](https://github.com/enoqv/cloudflarewarp/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/enoqv/cloudflarewarp/actions/workflows/codeql-analysis.yml)
+[![Codacy Security Scan](https://github.com/enoqv/cloudflarewarp/actions/workflows/codacy-analysis.yml/badge.svg)](https://github.com/enoqv/cloudflarewarp/actions/workflows/codacy-analysis.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/enoqv/cloudflarewarp)](https://goreportcard.com/report/github.com/enoqv/cloudflarewarp)
+[![Build and Test Source](https://github.com/enoqv/cloudflarewarp/actions/workflows/buildAndTest.yml/badge.svg)](https://github.com/enoqv/cloudflarewarp/actions/workflows/buildAndTest.yml)
+[![Integration Test](https://github.com/enoqv/cloudflarewarp/actions/workflows/prodTest.yml/badge.svg)](https://github.com/enoqv/cloudflarewarp/actions/workflows/prodTest.yml)
 
 If Traefik is behind a Cloudflare Proxy/Tunnel, it won't be able to get the real IP from the external client as well as other information.
 
@@ -37,7 +37,7 @@ If you do not define `trustip` and `disableDefault`, it doesn't seem to load the
 experimental:
   plugins:
     cloudflarewarp:
-      modulename: github.com/JimmyTsai16/cloudflarewarp
+      modulename: github.com/enoqv/cloudflarewarp
       version: v1.3.3
 ```
 
@@ -71,7 +71,7 @@ http:
 
 # Testing
 
-[https://github.com/JimmyTsai16/cloudflarewarp/tree/master/test](https://github.com/JimmyTsai16/cloudflarewarp/tree/master/test)
+[https://github.com/enoqv/cloudflarewarp/tree/master/test](https://github.com/enoqv/cloudflarewarp/tree/master/test)
 
 We have written the following tests in this repo:
 

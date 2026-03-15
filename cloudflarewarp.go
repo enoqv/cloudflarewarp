@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/JimmyTsai16/cloudflarewarp/ips"
+	"github.com/enoqv/cloudflarewarp/ips"
 )
 
 const (
